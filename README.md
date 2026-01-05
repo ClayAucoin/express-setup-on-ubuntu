@@ -596,6 +596,12 @@ From now on:
 pm2 start app.js --name express-server
 ```
 
+Save to start on restart
+
+```bash
+pm2 save
+```
+
 #### 8.4.2 Enable PM2 to start on reboot
 
 ```bash
